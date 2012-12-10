@@ -18,16 +18,16 @@
 
 	   # Dídac # 2012-11-15 09:54:46 # nova funcio: ts_sel()
 
-	   		$pagina = new ts_paginador('ofertes'); 		// creem nou objecte, indicant la taula amb la que treballarem (ha d'haver una connexió mysql oberta)
+	   		$pagina = new ts_paginador('ofertes');		// creem nou objecte, indicant la taula amb la que treballarem (ha d'haver una connexió mysql oberta)
 
-			$pagina->ts_sel('camp1, camp2');			      // podem seleccionar, per defecte fa SELECT * ara podem definir el *
-			$pagina->ts_where($where); 					        // si hi ha alguna condicio (buscador, etc..)
-			$pagina->ts_order('id DESC'); 				      // ordenació 
-			$pagina->estableix_resultats_pagina(10); 	  // * Establim els resultats per pàgina, per defecte 30 
-			$pagina->estableix_varpagina('pagina'); 	  // * Establim la variable de la pagina web.php?VARIABLE=1|2|3|4|5|N
-			$the_query = $pagina->fem_query(); 			    // Fem la consulta
+			$pagina->ts_sel('camp1, camp2');		// podem seleccionar, per defecte fa SELECT * ara podem definir el *
+			$pagina->ts_where($where);			// si hi ha alguna condicio (buscador, etc..)
+			$pagina->ts_order('id DESC');			// ordenació 
+			$pagina->estableix_resultats_pagina(10);	// * Establim els resultats per pàgina, per defecte 30 
+			$pagina->estableix_varpagina('pagina');		// * Establim la variable de la pagina web.php?VARIABLE=1|2|3|4|5|N
+			$the_query = $pagina->fem_query();		// Fem la consulta
 
-			$pagina->mostrar_links(7);					        // Mostrem els links
+			$pagina->mostrar_links(7);			// Mostrem els links
 
 			* Les instancies amb asterisc (*) no són necessaries, només les cridarem en cas de voler canviar els valors x defecte
 
@@ -39,16 +39,16 @@
 
 		/* definim variables que s'utilitzaran */
 
-		var $n_pag = 1; 		  // Nombre de pagina actual, per defecte serà 1 
-		var $rpp = 30; 			  // registres per pagina, per defecte 30
-		var $url;				      // la pàgina en la que estem, per crear els links correctament
-		var $total_registres;	// total de registres de la consulta realitzada
-		var $taula;				    // la taula amb la que treballarem
-		var $numero_pagines;	// numero de pàgines totals que hi haurà
-		var $pvar = 'p'; 		  // la variable que indicarà el numero de pàgina, per defecte es p ($_GET['p'])
-		var $sel = '*';			  // per defecte seleccionem tot *
-		var $where;				    // where
-		var $order;				    // order by
+		var $n_pag = 1;			// Nombre de pagina actual, per defecte serà 1 
+		var $rpp = 30;			// registres per pagina, per defecte 30
+		var $url;			// la pàgina en la que estem, per crear els links correctament
+		var $total_registres;		// total de registres de la consulta realitzada
+		var $taula;			// la taula amb la que treballarem
+		var $numero_pagines;		// numero de pàgines totals que hi haurà
+		var $pvar = 'p';		// la variable que indicarà el numero de pàgina, per defecte es p ($_GET['p'])
+		var $sel = '*';			// per defecte seleccionem tot *
+		var $where;			// where
+		var $order;			// order by
 
 
 		function ts_paginador($ts_taula) {
