@@ -1,17 +1,3 @@
-                                                      __                    
-                           __                        /\ \                   
- _____      __        __  /\_\     ___       __      \_\ \     ___    _ __  
-/\ '__`\  /'__`\    /'_ `\\/\ \  /' _ `\   /'__`\    /'_` \   / __`\ /\`'__\
-\ \ \L\ \/\ \L\.\_ /\ \L\ \\ \ \ /\ \/\ \ /\ \L\.\_ /\ \L\ \ /\ \L\ \\ \ \/ 
- \ \ ,__/\ \__/.\_\\ \____ \\ \_\\ \_\ \_\\ \__/.\_\\ \___,_\\ \____/ \ \_\ 
-  \ \ \/  \/__/\/_/ \/___L\ \\/_/ \/_/\/_/ \/__/\/_/ \/__,_ / \/___/   \/_/ 
-   \ \_\              /\____/                                               
-    \/_/              \_/__/                                
-
-
-[Creative Commons Attribution](http://creativecommons.org/licenses/by/3.0/)
-
-
 Paginador de resultats
 ======================
 
@@ -20,8 +6,15 @@ Per a paginar de forma senzilla i no tant senzilla resultats de les nostres cons
 Basat en la classe [paginaZ](http://www.php-hispano.net/archivos/Scripts/20/1.1) de Zubyc que va servir d'inspiració.
 
 
+
+Llicència
+---------
+
+[Creative Commons Attribution](http://creativecommons.org/licenses/by/3.0/)
+
+
 Instal·lació
-============
+------------
 
 Funciona amb PHP i MySQL i requereix només incloure la llibreria abans de definir les consultes
 
@@ -32,7 +25,8 @@ També disposa d'un full d'estils modificable per adaptar els enllaços a les di
 Són només unes 50 línies així que el que pots fer, es incloure'l en el teu full d'estils propi
 
 
-# Utilització
+Utilització
+-----------
 
     <?php
     
