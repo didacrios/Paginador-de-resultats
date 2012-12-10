@@ -22,7 +22,7 @@ Funciona amb PHP i MySQL i requereix només incloure la llibreria abans de defin
     
 També disposa d'un full d'estils modificable per adaptar els enllaços a les diferents pàgines segons l'estil.
 
-Són només unes 50 línies així que el que pots fer, es incloure'l en el teu full d'estils propi
+Són només unes 50 línies així que et recomano incloure'l en el teu full d'estils propi
 
 
 Utilització
