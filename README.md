@@ -77,7 +77,7 @@ Ofereix access directe a la primera pàgina i a la última i la possibilitat d'a
 
 [1] [<] [1] [2] [3] [4] ... [36] [37] [38] [39] [>] [39]
 
-El html generat és HTML5 i utilitza l'element *<nav>* per a englobar els enllaços i els atributs *data-*
+El html generat és HTML5 i utilitza l'element *&lt;nav&gt:* per a englobar els enllaços i els atributs *data-*
 
 
 
