@@ -68,6 +68,8 @@ Són només unes 50 línies així que el que pots fer, es incloure'l en el teu f
         // Amb aquesta ordre demanem quants enllaços volem mostrar
         $pagina->mostrar_links(4);
         
+    ?>
+        
 Visualment el pagiandor quedaria de la següent manera.
 
 Un total de 39 pàgines, mostrant enllaços en grups de 4 pàgines per a no ocupar massa espai.
