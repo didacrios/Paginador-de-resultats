@@ -1,20 +1,23 @@
-                                                        __                    
-	                           __                        /\ \                   
-	 _____      __        __  /\_\     ___       __      \_\ \     ___    _ __  
-	/\ '__`\  /'__`\    /'_ `\\/\ \  /' _ `\   /'__`\    /'_` \   / __`\ /\`'__\
-	\ \ \L\ \/\ \L\.\_ /\ \L\ \\ \ \ /\ \/\ \ /\ \L\.\_ /\ \L\ \ /\ \L\ \\ \ \/ 
-	 \ \ ,__/\ \__/.\_\\ \____ \\ \_\\ \_\ \_\\ \__/.\_\\ \___,_\\ \____/ \ \_\ 
-	  \ \ \/  \/__/\/_/ \/___L\ \\/_/ \/_/\/_/ \/__/\/_/ \/__,_ / \/___/   \/_/ 
-	   \ \_\              /\____/                                               
-	    \/_/              \_/__/                                
+                                                      __                    
+                           __                        /\ \                   
+ _____      __        __  /\_\     ___       __      \_\ \     ___    _ __  
+/\ '__`\  /'__`\    /'_ `\\/\ \  /' _ `\   /'__`\    /'_` \   / __`\ /\`'__\
+\ \ \L\ \/\ \L\.\_ /\ \L\ \\ \ \ /\ \/\ \ /\ \L\.\_ /\ \L\ \ /\ \L\ \\ \ \/ 
+ \ \ ,__/\ \__/.\_\\ \____ \\ \_\\ \_\ \_\\ \__/.\_\\ \___,_\\ \____/ \ \_\ 
+  \ \ \/  \/__/\/_/ \/___L\ \\/_/ \/_/\/_/ \/__/\/_/ \/__,_ / \/___/   \/_/ 
+   \ \_\              /\____/                                               
+    \/_/              \_/__/                                
 
 
+[Creative Commons Attribution](http://creativecommons.org/licenses/by/3.0/)
 
 
 Paginador de resultats
 ======================
 
 Per a paginar de forma senzilla i no tant senzilla resultats de les nostres consultes MySQL facilment configurable
+
+Basat en la classe [paginaZ](http://www.php-hispano.net/archivos/Scripts/20/1.1) de Zubyc que va servir d'inspiració.
 
 
 Instal·lació
