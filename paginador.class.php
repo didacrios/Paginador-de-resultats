@@ -18,18 +18,18 @@
 
 	   # Dídac # 2012-11-15 09:54:46 # nova funcio: ts_sel()
 
-	   		$pagina = new ts_paginador('ofertes');		// creem nou objecte, indicant la taula amb la que treballarem (ha d'haver una connexió mysql oberta)
-
-			$pagina->ts_sel('camp1, camp2');		// podem seleccionar, per defecte fa SELECT * ara podem definir el *
-			$pagina->ts_where($where);			// si hi ha alguna condicio (buscador, etc..)
-			$pagina->ts_order('id DESC');			// ordenació 
-			$pagina->estableix_resultats_pagina(10);	// * Establim els resultats per pàgina, per defecte 30 
-			$pagina->estableix_varpagina('pagina');		// * Establim la variable de la pagina web.php?VARIABLE=1|2|3|4|5|N
-			$the_query = $pagina->fem_query();		// Fem la consulta
-
-			$pagina->mostrar_links(7);			// Mostrem els links
-
-			* Les instancies amb asterisc (*) no són necessaries, només les cridarem en cas de voler canviar els valors x defecte
+	   	$pagina = new ts_paginador('ofertes');		// creem nou objecte, indicant la taula amb la que treballarem (ha d'haver una connexió mysql oberta)
+	
+		$pagina->ts_sel('camp1, camp2');		// podem seleccionar, per defecte fa SELECT * ara podem definir el *
+		$pagina->ts_where($where);			// si hi ha alguna condicio (buscador, etc..)
+		$pagina->ts_order('id DESC');			// ordenació 
+		$pagina->estableix_resultats_pagina(10);	// * Establim els resultats per pàgina, per defecte 30 
+		$pagina->estableix_varpagina('pagina');		// * Establim la variable de la pagina web.php?VARIABLE=1|2|3|4|5|N
+		$the_query = $pagina->fem_query();		// Fem la consulta
+	
+		$pagina->mostrar_links(7);			// Mostrem els links
+	
+		* Les instancies amb asterisc (*) no són necessaries, només les cridarem en cas de voler canviar els valors x defecte
 
 	   
 	   ========================================================================== */
