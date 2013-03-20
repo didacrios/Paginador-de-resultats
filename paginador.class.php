@@ -20,17 +20,27 @@
 	
 		/* definim variables que s'utilitzaran */
 	
-		var $n_pag = 1;			// Nombre de pagina actual, per defecte serà 1 
-		var $rpp = 30;			// registres per pagina, per defecte 30
-		var $url;			// la pàgina en la que estem, per crear els links correctament
-		var $total_registres;		// total de registres de la consulta realitzada
-		var $taula;			// la taula amb la que treballarem
-		var $numero_pagines;		// numero de pàgines totals que hi haurà
-		var $pvar = 'p';		// la variable que indicarà el numero de pàgina, per defecte es p ($_GET['p'])
-		var $sel = '*';			// per defecte seleccionem tot *
-		var $where;			// where
-		var $order;			// order by
+		private $n_pag				// Nombre de pagina actual, per defecte serà 1 
+		private $rpp				// registres per pagina, per defecte 30
+		private $url;				// la pàgina en la que estem, per crear els links correctament
+		private $total_registres;	// total de registres de la consulta realitzada
+		private $taula;				// la taula amb la que treballarem
+		private $numero_pagines;	// numero de pàgines totals que hi haurà
+		private $pvar;				// la variable que indicarà el numero de pàgina, per defecte es p ($_GET['p'])
+		private $sel;				// per defecte seleccionem tot *
+		private $where;				// where
+		private $order;				// order by
 	
+
+	    public function __construct(){
+
+            $this->n_pag         = 1;
+            $this->rpp         	 = 30;
+            $this->pvar 	     = 'p';
+            $this->sel 			 = '*';
+
+
+        }
 	
 		function ts_paginador($ts_taula) {
 			global $n_pag;
