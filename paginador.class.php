@@ -20,8 +20,8 @@
 	
 		/* definim variables que s'utilitzaran */
 	
-		private $n_pag				// Nombre de pagina actual, per defecte serà 1 
-		private $rpp				// registres per pagina, per defecte 30
+		private $n_pag;				// Nombre de pagina actual, per defecte serà 1 
+		private $rpp;				// registres per pagina, per defecte 30
 		private $url;				// la pàgina en la que estem, per crear els links correctament
 		private $total_registres;	// total de registres de la consulta realitzada
 		private $taula;				// la taula amb la que treballarem
