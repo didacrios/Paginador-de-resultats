@@ -1,0 +1,62 @@
+/* =============================================================================
+   Estils en SASS
+    // Dídac # 2013-03-20 11:23:17
+   ========================================================================== */
+
+.ts_paginacio {
+
+    list-style-type: none;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 10px;
+    padding: 0;
+    margin-left: 10px;
+    text-align: right;
+
+    span, a {
+        margin: 3px 0;
+    }
+
+    a {
+        padding:3px 6px;
+        font-weight:normal;
+        border:1px solid #DED9CF;
+        background-color:#DED9CF;
+        color:#544B36;
+        margin-right:2px;
+        text-decoration:none;
+       -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+       -o-transition: all 0.3s ease-in-out;
+       -ms-transition: all 0.3s ease-in-out;
+       transition: all 0.3s ease-in-out;
+
+        &:hover {
+            background-color:#73a6f7;
+            border:1px solid #73a6f7;
+            color:#ffffff;
+        }
+
+        &.active {
+            border: 1px solid #fff;
+            color: #ffffff;
+            background-color: #73a6f7;
+            text-decoration: none;
+        }
+
+        &.inactiu {
+            padding:3px 5px;
+            margin:-1px 3px 0 0;
+            border:1px solid #E8E8E8;
+            color:#C8C8C8;
+            font-weight:bold;
+            background-color:#E8E8E8            
+        }
+    }
+
+
+    span {
+        padding:3px;
+        font-weight:normal;
+        margin-right:2px;
+    }
+}
