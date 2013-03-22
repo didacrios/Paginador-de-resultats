@@ -146,7 +146,7 @@
     
             if ($pagtotals >= 1) {
     
-                echo '<nav class="ts_paginacio">';
+                echo '<div class="ts_paginacio">';
     
                 if ($pagina_actual == 1) {
                     echo '
@@ -224,7 +224,7 @@
                     ';              
                 }           
     
-                echo "</nav>";
+                echo "</div>";
             }
     
         }   
