@@ -130,11 +130,9 @@
     
             //echo($query);
 
-            $result = mysql_query($query) or die('L143:'. mysql_error());
+            $result = mysql_query($query) or die('L133:'. mysql_error());
     
-    
-            return($result);
-    
+            return($result);    
         }
     
     
