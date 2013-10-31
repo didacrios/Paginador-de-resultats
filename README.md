@@ -78,11 +78,6 @@ El html generat és HTML5 i utilitza l'element **&lt;nav&gt;** per a englobar el
 
 
 
-TODO
------------
-
-Portar-ho a MySQLi
-
 
 
 
