@@ -78,7 +78,14 @@ El html generat és HTML5 i utilitza l'element **&lt;nav&gt;** per a englobar el
 
 
 
+TODO
+-----------
 
+- Pàginació SEO friendly
+    - Ficar en Li
+    - atributs rel="next" rel="prev"
+
+- Visualització RWD. Petites pantalles mostrar seguent i anterior, per exemple.
 
 
 
