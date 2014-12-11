@@ -20,7 +20,7 @@
         private $n_pag;             // Nombre de pagina actual, per defecte serà 1 
         private $rpp;               // registres per pagina, per defecte 30
         private $url;               // la pàgina en la que estem, per crear els links correctament
-        private $total_de_registres;   // total de registres de la consulta realitzada
+        private $total_registres;   // total de registres de la consulta realitzada
         private $taula;             // la taula amb la que treballarem
         private $numeros_pagines;   // numero de pàgines totals que hi haurà
         private $pvar;              // la variable que indicarà el numero de pàgina, per defecte es p ($_GET['p'])
@@ -235,7 +235,7 @@
         }
 
         function mostrar_total_registres() {
-            return $this->total_de_registres;
+            return $this->total_registres;
         }
     
     }
